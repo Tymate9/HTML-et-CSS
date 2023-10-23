@@ -1,0 +1,63 @@
+body {
+    position: absolute;
+    background-color: rgb(136, 111, 111);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#cal-body {
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(221, 218, 218);
+    box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45),
+        5px 5px 9px rgba(94, 104, 121, 0.45);
+    padding: 45px;
+    scale: 1.5;
+}
+
+.input input {
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(117, 92, 92);
+    box-shadow: inset -5px 9px rgba(255, 255, 255, 0.45),
+        inset 5px 9px rgba(94, 104, 121, 0.45);
+    border: 0;
+    color: rgb(116, 116, 116);
+    font-size: 2.5rem;
+}
+
+.input input:focus {
+    outline: none;
+    background: rgb(221, 218, 218);
+    box-shadow: inset -2px 0px rgba(255, 255, 255, 0.45),
+    inset 2px 2px rgba(94, 104, 121, 0.45);
+}
+
+
+
+.buttons button {
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    border: 0;
+    font-size: 2em;
+    background: rgb(221, 218, 218);
+    box-shadow: -2px -2px 0px rgba(255, 255, 255, 0.45),
+    2px 2px 2px rgba(94, 104, 121, 0.45);
+    color: rgb(rgb(177, 172, 172), rgb(178, 185, 178), rgb(177, 177, 184));
+}
+
+.buttons button:focus {
+    background: rgb(221, 218, 218);
+    box-shadow: inset -2px 0px rgba(255, 255, 255, 0.45),
+    inset 2px 2px rgba(94, 104, 121, 0.45);
+}
+
+.buttons {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
